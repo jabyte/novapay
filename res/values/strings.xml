@@ -1,0 +1,28 @@
+<resources>
+	<string name="app_name">Novapay</string>
+	<string name="make_payment_button">MAKE PAYMENT</string>
+	<string name="amount_tv_hint">0.00</string>
+	<string name="proceed_btn_txt">PROCEED</string>
+	<string name="cancel_btn_txt">CANCEL</string>
+	<string name="title_activity_payment_acitivity">MAKE PAYMENT</string>
+	
+	<!--    Number keypads display text     -->
+	<string name="key_btn_1">1</string>
+	<string name="key_btn_2">2</string>
+	<string name="key_btn_3">3</string>
+	<string name="key_btn_4">4</string>
+	<string name="key_btn_5">5</string>
+	<string name="key_btn_6">6</string>
+	<string name="key_btn_7">7</string>
+	<string name="key_btn_8">8</string>
+	<string name="key_btn_9">9</string>
+	<string name="key_btn_x">X</string>
+	<string name="key_btn_0">0</string>
+	<string name="key_btn_c">C</string>
+	<string name="password_tv_hint">****</string>
+	<string name="ok_btn_txt">OK</string>
+	<string name="title_activity_card_details_entry">CardDetailsEntry</string>
+	<string name="card_number_et_hint">0000-0000-0000-0000</string>
+	<string name="read_card_tx">INSERT YOUR CARD</string>
+	<string name="cancel_transaction">cancel transaction</string>
+</resources>

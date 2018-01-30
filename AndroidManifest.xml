@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ng.novateur.novapay">
+	
+	<uses-permission android:name="android.permission.INTERNET"/>
+	
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name=".MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".AmountEntryActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/title_activity_payment_acitivity"
+			android:screenOrientation="portrait"
+			android:theme="@style/FullscreenTheme">
+		</activity>
+		<activity android:name=".PinEntryActivity">
+		</activity>
+		<activity
+			android:name=".CardDetailsEntry"
+			android:label="@string/title_activity_card_details_entry"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
+		
+		<meta-data
+			android:name="co.paystack.android.PublicKey"
+			android:value="pk_test_e97e1da0884b14f488735eb739e6859f611121a9"/>
+
+	</application>
+
+</manifest>
